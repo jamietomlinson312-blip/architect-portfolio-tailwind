@@ -1,1 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+  --font-IBMPlexSans: "IBM Plex Sans", sans-serif; 
+  --color-Charcoal: #1A1A1A;
+  --color-Light-Grey: oklch(0.8853 0 0 / 50%);
+  --color-White: #FFFFFF;
+}
+
