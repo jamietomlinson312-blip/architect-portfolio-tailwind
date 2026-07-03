@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="fixed top-0 left-0 w-full p-1 font-IBMPlexSans bg-Light-Grey font-light flex justify-between 
+    <header class="fixed top-0 left-0 w-full p-1 z-50 bg-Light-Grey font-light flex justify-between 
         border-b-2 border-Charcoal">
         <div class="p-2 text-lg flex items-center">
             <h2 class="font-medium">Student_portfolio</h2>
@@ -31,10 +31,82 @@
         </div>
     </header>
 
-    <!-- Placeholder section-->
-    <main class="mt-50">
+    <!-- Hero section-->
+    <section class="bg-White my-10 pt-10">
+        <p class="mb-2 py-4 px-10 text-base font-light">Selected works 2025-2026</p>
+        <div class="flex gap-2 justify-between">
+            <div class="py-4 px-10 w-1/2 flex-none">
+            <h1 class="text-7xl font-Space-Grotesk font-black">ARCHITECHTURAL INTEGRITY & SPATIAL LOGIC.</h1>
+            </div>
+        <div class="py-4 px-10 w-1/4 flex-none">
+            <p class="mb-2 pl-3 border-l-3 border-Charcoal text-base font-light">A focused investigation into modular structures and technical precision within urban
+                environments. Designed for clarity, authority and high-performance utility.
+            </p>
+        <div class="text-xs p-2 flex gap-4 justify-between">
+                <a class="px-4 py-1 flex-none text-center w-1/2 bg-Black text-White">EXPLORE<br> 
+            PORTFOLIO</a>
+            <a class="px-4 py-1 flex-none text-center w-1/2 bg-Light-Grey text-Charcoal">OUR <br>
+                PHILOSOPHY</a>
+        </div>
+    </section>
 
-    </main>
+    <!-- Stats section-->
+    <section class="w-full border-t-1 border-b-2 border-Charcoal bg-Light-Grey">
+        <div class="max-w-9/10 py-6 mx-auto grid grid-cols-4 divide-x-1 divide-Charcoal text-center">
+            <div class="flex flex-col content-center">
+                <p class="mb-2 font-IBMPlexSans font-light italic">Projects Completed</p>
+                <h2 class="font-Space-Grotesk text-3xl font-black italic">42+</h2>
+            </div>
+            <div>
+                <p class="mb-2 font-IBMPlexSans font-light italic">Global Awards</p>
+                <h2 class="font-Space-Grotesk text-3xl font-black italic">12</h2>
+            </div>
+            <div>
+                <p class="mb-2 font-IBMPlexSans font-light italic">Technical Certs</p>
+                <h2 class="font-Space-Grotesk text-3xl font-black italic">08</h2>
+            </div>
+            <div>
+                <p class="mb-2 font-IBMPlexSans font-light italic">Design Labs</p>
+                <h2 class="font-Space-Grotesk text-3xl font-black italic">03</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 001 section-->
+    <section class="mb-10">
+        <div class="flex gap-10">
+            <div class="relative max-w-1/2 max-h-1/2 flex-none">
+                <img src="./assets/images/joakim-nadell-K67sBVqLLuw-unsplash.jpg" class="w-full pl-10 pt-10" 
+                title="Photo by Joakim Nådell on Unsplash">
+                <div class="ml-15 text-White w-9/10 absolute top-160 backdrop-blur-xs">
+                    <h3 class="p-4 text-base font-light">Project 001</h3>
+                    <h2 class="p-4 font-Space-Grotesk text-4xl font-black">The Monolith Pavilion</h1>
+                    <p class="p-4 text-base font-light">Exploration of concrete as a fluid yet structural element in public transit hubs.</p>
+                    <a href="#case-study" class="p-4 text-sm font-bold">View case study</a>
+                </div>
+            </div>
+            <div class="flex flex-col max-h-128 gap-4 mt-10 mr-10 px-4 bg-Light-Grey">
+                <h3 class="p-4 text-base font-light">METHODOLOGY</h3>
+                <h2 class="p-4 font-Space-Grotesk text-4xl font-black">BIM INTEGRATION & STRUCTURAL ANALYTICS</h1>
+                <p class="p-4 text-sm font-light">Every project follows a rigid grid system of 8px, ensuring mathematical perfection from 
+                    initial concept to the final blueprint.</p>
+                <div class="text-left flex gap-4 justify-between w-full border-t-2 border-Charcoal">
+                    <div class="max-w-1/4 flex-none border-b-4 border-Charcoal">
+                        <h3 class="p-4 text-sm font-light">CAD</h3>
+                    </div>
+                     <div class="max-w-1/4 flex-none border-b-4 border-Charcoal">
+                        <h3 class="p-4 text-sm font-light">3D MAPPING</h3>
+                    </div>
+                     <div class="max-w-1/4 flex-none border-b-2">
+                        <h3 class="p-4 text-sm font-light">SUSTAINABILITY</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      
+    </section>
+
 
     <!-- Footer -->
     <Footer class="relative p-1 flex justify-between bg-mist-200 border-t-3 ">
