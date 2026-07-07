@@ -12,31 +12,146 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="fixed top-0 left-0 w-full p-1 font-IBMPlexSans bg-Light-Grey font-light flex justify-between 
+    <header class="fixed top-0 left-0 w-full p-1 z-50 bg-Light-Grey font-light flex justify-between 
         border-b-2 border-Charcoal">
         <div class="p-2 text-lg flex items-center">
             <h2 class="font-medium">Student_portfolio</h2>
         </div>
         <div class="p-2 text-base flex items-center">
             <nav class="flex gap-4">
-                <a href="index.html">Home</a>
-                <a href="projects.html" class="flex font-medium underline underline-offset-4">Projects</a>
+                <a href="index.html" >Home</a>
+                <a href="projects.html" class="flex font-medium underline">Projects</a>
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
         <div class="p-2 flex gap-4 items-center">
             <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
             <p class="p-1 bg-Charcoal text-sm text-White font-normal">Download_CV</p>
-            
         </div>
     </header>
 
     <!-- Placeholder section-->
-    <main class="mt-50">
+    <main class="bg-White my-10 pt-13">
+        <section class="ml-5 pl-5 flex flex-col gap-4 max-w-7/10 px-10 border-l-2">
+            <h1 class="flex-auto uppercase text-7xl font-Space-Grotesk font-black">selected_works</h1>
+            <h3 class="max-w-128 flex-none uppercase text-base font-light">an archival collection of academic and personal projects focusing on structural 
+                integrity, computational design and interactive systems. 2022-2024.
+            </h3>
+        </section>
 
+        <!-- Project gallery -->
+        <section class="mt-15 ml-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="flex flex-col gap-2 p-4 justify-start border-1 border-Light-Grey">
+                <div class="flex flex-col place-items-center">
+                    <img src="./assets/images/boxicons-XjQ8nxFvHxw-unsplash.jpg" class="max-w-9/10 mb-2">
+                    <p class="text-xs text-Black font-light bg-Light-Grey p-2">Img_Placeholder_01</p>
+                </div>
+
+                <div class="flex justify-between">
+                    <h2 class="uppercase text-2xl p-1 font-Space-Grotesk font-black">project title</h2>
+                    <div class="p-1 h-10 flex items-center justify-center">
+                         <p class="p-1 text-sm font-light border-1 border-Light-Grey shadow-md">ID_001</p>
+                    </div>
+                </div>
+                <h3 class="text-base font-light">Exploration of generative patterns using modular arithmatic. Focus on weight and balance within a constrained 8px grid system.</p>
+                <p class="text-xs font-light uppercase mt-2">#systems #typography</p>
+                </div>
+
+                <div class="flex flex-col gap-2 p-4 justify-start border-1 border-Light-Grey">
+                    <div class="flex flex-col place-items-center">
+                        <img src="./assets/images/boxicons-XjQ8nxFvHxw-unsplash.jpg" class="max-w-9/10 mb-2">
+                        <p class="text-xs text-Black font-light bg-Light-Grey p-2">Img_Placeholder_02</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="uppercase text-2xl p-1 font-Space-Grotesk font-black">interactive skill: css hover effect</h2>
+                        <div class="p-1 h-10 flex content-start">
+                            <p class="p-1 text-sm font-light border-1 border-Light-Grey shadow-md">ID_002</p>
+                        </div>
+                    </div>
+                    <h3 class="text-base font-light">Demonstrating rapid state conversions and colour inversion through standard CSS utility classes.
+                        Hover over this card to view the visual transformation.</p>
+                    <p class="text-xs font-light uppercase mt-2">#interactive #motion</p>
+                </div>
+
+                <div class="flex flex-col gap-2 p-4 justify-start border-1 border-Light-Grey">
+                    <div class="flex flex-col place-items-center">
+                        <img src="./assets/images/boxicons-XjQ8nxFvHxw-unsplash.jpg" class="max-w-9/10 mb-2">
+                        <p class="text-xs text-Black font-light bg-Light-Grey p-2">Img_Placeholder_03</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="uppercase text-2xl p-1 font-Space-Grotesk font-black">project title</h2>
+                        <div class="p-1 h-10 flex content-start">
+                            <p class="p-1 text-sm font-light border-1 border-Light-Grey shadow-md">ID_003</p>
+                        </div>
+                    </div>
+                    <h3 class="text-base font-light">Multi-dimensional data visualisation for urban traffic flow. Utilising dark-grey scalar
+                        values to represent density and frequency.</p>
+                    <p class="text-xs font-light uppercase mt-2">#data_viz #algorithmic</p>
+                </div>
+
+                 <div class="flex flex-col gap-2 p-4 justify-start border-1 border-Light-Grey">
+                    <div class="flex flex-col place-items-center">
+                        <img src="./assets/images/boxicons-XjQ8nxFvHxw-unsplash.jpg" class="max-w-9/10 mb-2">
+                        <p class="text-xs text-Black font-light bg-Light-Grey p-2">Img_Placeholder_04</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="uppercase text-2xl p-1 font-Space-Grotesk font-black">project title</h2>
+                        <div class="p-1 h-10 flex content-start">
+                            <p class="p-1 text-sm font-light border-1 border-Light-Grey shadow-md">ID_004</p>
+                        </div>
+                    </div>
+                    <h3 class="text-base font-light">Design study of brutalist architechture translated into digital interface components.
+                        Emphasis on raw material feel and high contrast.</p>
+                    <p class="text-xs font-light uppercase mt-2">#brutalism #UI_design</p>
+                </div>
+
+                <div class="flex flex-col gap-2 p-4 justify-start border-1 border-Light-Grey">
+                    <div class="flex flex-col place-items-center">
+                        <img src="./assets/images/boxicons-XjQ8nxFvHxw-unsplash.jpg" class="max-w-9/10 mb-2">
+                        <p class="text-xs text-Black font-light bg-Light-Grey p-2">Img_Placeholder_05</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="uppercase text-2xl p-1 font-Space-Grotesk font-black">project title</h2>
+                        <div class="p-1 h-10 flex content-start">
+                            <p class="p-1 text-sm font-light border-1 border-Light-Grey shadow-md">ID_005</p>
+                        </div>
+                    </div>
+                    <h3 class="text-base font-light">Responsive system framework for educational platforms. Prioritising information
+                        heirachy and accessible data nodes.</p>
+                    <p class="text-xs font-light uppercase mt-2">#framework #ux_research</p>
+                </div>
+
+                 <div class="flex flex-col gap-2 p-4 justify-start border-1 border-Light-Grey">
+                    <div class="flex flex-col place-items-center">
+                        <img src="./assets/images/boxicons-XjQ8nxFvHxw-unsplash.jpg" class="max-w-9/10 mb-2">
+                        <p class="text-xs text-Black font-light bg-Light-Grey p-2">Img_Placeholder_06</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="uppercase text-2xl p-1 font-Space-Grotesk font-black">project title</h2>
+                        <div class="p-1 h-10 flex content-start">
+                            <p class="p-1 text-sm font-light border-1 border-Light-Grey shadow-md">ID_006</p>
+                        </div>
+                    </div>
+                    <h3 class="text-base font-light">Experimental log of 100 days of layout experiments. Documentation of grid-breaking 
+                        patterns and asymmetrical balance.
+                    </p>
+                    <p class="text-xs font-light uppercase mt-2">#layout #experimental</p>
+                </div>
+        </section>
+
+        <!-- Page counter -->
+        <section class="mx-10 mt-40">
+            <div class="flex justify-between w-screen">
+                <div class="w-2/3 flex justify-between border-t-1 border-Light-Grey pt-4">
+                    <p class="flex-1 uppercase text-sm font-bold">archive_section_end</p>
+                    <p class="flex-1 uppercase text-sm text-right font-bold">viewing_page_01_of_04</p>
+                </div>
+                <a href="#next-page" class="text-xl font-bold border-2 p-2 ">load_next_entries<a></a>
+            </div>
+        </section>
     </main>
 
-        <!-- Footer -->
+    <!-- Footer -->
     <Footer class="relative p-4 flex justify-between bg-mist-200 border-t-3 ">
         <div class="p-2 flex items-center">
             <p class="text-xs font-medium">	&copy; 2026 ARCHITECHTURAL_SYSTEMS_LTD. ALL RIGHTS RESERVED.</h2>
