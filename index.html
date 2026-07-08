@@ -20,32 +20,34 @@
         <div class="p-2 text-base flex items-center">
             <nav class="flex gap-4">
                 <a href="index.html" class="flex font-medium underline">Home</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
+                <a href="projects.html" class="transition duration 300 ease-in-out hover:text-zinc-400">Projects</a>
+                <a href="contact.html" class="transition duration 300 ease-in-out hover:text-zinc-400">Contact</a>
             </nav>
         </div>
         <div class="p-2 flex gap-4 items-center">
             <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
-            <p class="p-1 bg-Charcoal text-sm text-White font-normal">Download_CV</p>
-            
+            <a href="CV" class="p-1 bg-Charcoal border-1 border-White text-sm text-White font-normal transition duration 300 ease-in-out
+             hover:bg-White hover:text-Black hover:border-1 hover:border-Charcoal">Download_CV</a> 
         </div>
     </header>
 
     <!-- Hero section-->
-    <section class="bg-White my-15 pt-10">
-        <p class="mb-2 py-4 px-10 text-base font-light">Selected works 2025-2026</p>
+    <section class="bg-White my-15 mx-10 pt-10">
+        <p class="mb-2 py-4 text-base font-light">Selected works 2025-2026</p>
         <div class="flex gap-2 justify-between">
-            <div class="py-4 px-10 w-1/2 flex-none">
+            <div class="py-4 w-1/2 flex-none">
             <h1 class="text-7xl font-Space-Grotesk font-black">ARCHITECHTURAL INTEGRITY & SPATIAL LOGIC.</h1>
             </div>
-        <div class="py-4 px-10 w-1/4 flex-none">
-            <p class="mb-2 pl-3 border-l-3 border-Charcoal text-base font-light">A focused investigation into modular structures and technical precision within urban
-                environments. Designed for clarity, authority and high-performance utility.
+        <div class="py-4 w-1/4 flex-none">
+            <p class="mb-2 pl-3 border-l-3 border-Charcoal text-base font-light">A focused investigation into modular structures and technical 
+                precision within urban environments. Designed for clarity, authority and high-performance utility.
             </p>
         <div class="text-xs p-2 flex gap-4 justify-between">
-                <a class="px-4 py-1 flex-none text-center w-1/2 bg-Black text-White">EXPLORE<br> 
-            PORTFOLIO</a>
-            <a class="px-4 py-1 flex-none text-center w-1/2 bg-Light-Grey text-Charcoal">OUR <br>
+                <a href="portfolio" class="px-4 py-1 flex-none text-center w-1/2 bg-Black text-White border-1 border-White transition 
+                duration-300 ease-in-out hover:translate-y-1 hover:bg-White hover:text-Black hover:border-1 hover:border-Black">EXPLORE<br>
+                PORTFOLIO</a>
+            <a href="philosophy" class="px-4 py-1 flex-none text-center w-1/2 bg-Light-Grey text-Charcoal border-1 border-White transition
+               duration-300 ease-in-out hover:translate-y-1 hover:bg-White hover:text-Black hover:border-1 hover:border-Black">OUR <br>
                 PHILOSOPHY</a>
         </div>
     </section>
@@ -73,24 +75,26 @@
     </section>
 
     <!-- Project 001 section-->
-    <section class="mb-10">
-        <div class="grid grid-cols-2 gap-4">
+    <section class="mb-10 mx-10 pt-10">
+        <div class="grid grid-cols-2 gap-4 w-full">
             <div class="relative">
-                <img src="./assets/images/joakim-nadell-K67sBVqLLuw-unsplash.jpg" class="w-full pl-10 pt-10" 
+                <img src="./assets/images/joakim-nadell-K67sBVqLLuw-unsplash.jpg" class="w-full " 
                 title="Photo by Joakim Nådell on Unsplash">
-                <div class="ml-15 text-White w-9/10 absolute top-160 backdrop-blur-xs">
+                <div class="absolute mx-auto text-White w-full top-160 backdrop-blur-xs">
                     <h3 class="p-4 text-base font-light">Project 001</h3>
                     <h2 class="p-4 font-Space-Grotesk text-4xl font-black">The Monolith Pavilion</h1>
-                    <p class="p-4 font-IBMPlexSans font-light">Exploration of concrete as a fluid yet structural element in public transit hubs.</p>
-                    <a href="#case-study" class="p-4 font-IBMPlexSans text-sm font-bold">View case study</a>
+                    <p class="p-4 font-IBMPlexSans font-light">Exploration of concrete as a fluid yet structural element in public transit 
+                        hubs.</p>
+                    <a href="#case-study" class="p-4 font-IBMPlexSans text-sm font-bold transition duration-300 delay-300 hover:underline">
+                        View case study</a>
                 </div>
             </div>
             <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 flex flex-col max-h-100 mt-10 mr-10 pr-4 bg-Light-Grey shadow-md">
+                <div class="p-4 col-span-2 flex flex-col bg-Light-Grey shadow-md">
                     <h3 class="p-4 text-base font-light">METHODOLOGY</h3>
                     <h2 class="p-4 font-Space-Grotesk text-4xl font-black">BIM INTEGRATION & STRUCTURAL ANALYTICS</h1>
-                    <p class="p-4 font-IBMPlexSans text-sm font-light">Every project follows a rigid grid system of 8px, ensuring mathematical perfection from 
-                        initial concept to the final blueprint.</p>
+                    <p class="p-4 font-IBMPlexSans text-sm font-light">Every project follows a rigid grid system of 8px, ensuring mathematical 
+                        perfection from initial concept to the final blueprint.</p>
                     <div class="p-4 text-left flex gap-4 justify-between w-full border-t-2 border-Charcoal">
                         <div class="w-32 flex-none border-b-4 border-Charcoal">
                             <h3 class="py-4 text-sm font-light">CAD</h3>
@@ -109,11 +113,13 @@
                         <img src="./assets/images/rene-bohmer-6SFfFpHmVjI-unsplash.jpg" alt="" class="absolute bottom-0 right-0 
                         max-h-1/2 shadow-sm">
                     </div>
-                     <div class="mr-10 p-4 flex flex-col justify-center bg-Black shadow-md">
+                     <div class="p-4 flex flex-col justify-center bg-Black shadow-md">
                         <i class="fa-solid fa-compass-drafting " style="color: rgb(255, 255, 255);"></i>
                         <h2 class="font-Space-Grotesk text-lg text-White  font-bold">JOIN THE ARCHITECTURAL DIALOGUE.</h2>
                         <h2>SHADOW STUDIES</h2>
-                        <a href="#enquiry" class="max-w-1/2 text-White text-center text-xs p-2 border-2 border-White border-double">Submit Enquiry</a>
+                        <a href="#enquiry" class="max-w-1/2 text-White text-center text-xs p-2 border-2 border-White border-double
+                        transition duration 300 delay 150 ease-in-out hover:bg-Light-Grey hover:text-Black hover:border-2 hover:border-Charcoal">
+                        Submit Enquiry</a>
                     </div>
             </div>
         </div>
@@ -188,9 +194,12 @@
                 <i class="p-4 fa-solid fa-arrow-right" style="color: rgb(255, 255, 255);"></i>
         </div>
         <div class="mx-auto mt-5 text-base text-Light-Grey font-light max-w-1/4 flex gap-4 justify-between">
-            <a href="#journal">JOURNAL</h3>
-            <a href="#notes">NOTES</h3>
-            <a href="#notes">TWITTER</h3>
+            <a href="#journal" class="border-1 border-Black p-2 rounded-sm transition duration-300 ease-in-out hover:border-1 hover:border-White">
+                JOURNAL</a>
+            <a href="#notes" class="border-1 border-Black p-2 rounded-sm transition duration-300 ease-in-out  hover:border-1 hover:border-White">
+                NOTES</a>
+            <a href="#notes" class="border-1 border-Black p-2 rounded-sm transition duration-300 ease-in-out  hover:border-1 hover:border-White">
+                TWITTER</a>
         </div>
     </section>
 
@@ -201,9 +210,9 @@
         </div>
         <div class="p-2 text-xs font-light flex items-center">
             <nav class="flex gap-4">
-                <a class="flex underline underline-offset-4">Instagram</a>
-                <a class="flex underline underline-offset-4">LinkedIn</a>
-                <a class="flex underline underline-offset-4">GitHub</a>
+                <a href="instagram" class="flex underline underline-offset-4 transition duration-300 ease-in-out hover:font-bold">Instagram</a>
+                <a href="LinkedIn" class="flex underline underline-offset-4 transition duration-300 ease-in-out hover:font-bold">LinkedIn</a>
+                <a href="GitHub" class="flex underline underline-offset-4 transition duration-300 ease-in-out hover:font-bold">GitHub</a>
             </nav>
         </div>
     </Footer>
