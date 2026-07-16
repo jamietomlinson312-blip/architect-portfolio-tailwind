@@ -12,44 +12,46 @@
 </head>
 <body class="font-IBMPlexSans bg-Platinum">
     <!-- Header -->
-     <header class="fixed top-0 left-0 w-full p-2 z-50 bg-Platinum font-light flex justify-between border-b-2 border-Carbon-Black">
-        <div class="p-2 text-lg flex items-center">
-            <h2 class="font-medium">Student_portfolio</h2>
-        </div>
-        <div class="p-2 text-base flex items-center">
-            <nav class="flex gap-4">
-                <a href="index.html" class="transition duration 300 ease-in-out hover:underline">Home</a>
-                <a href="projects.html" class="transition duration 300 ease-in-out hover:underline">Projects</a>
-                <a href="contact.html" class="font-medium underline">Contact</a>
-            </nav>
-        </div>
-        <div class="p-2 flex gap-4 items-center">
-            <i class="fa-solid fa-magnifying-glass" style="color: #1A2022;" ></i>
-            <a href="CV" class="p-1 bg-Carbon-Black border-1 border-Platinum text-sm text-Platinum font-normal transition duration 300 ease-in-out
-             hover:bg-Platinum hover:text-Carbon-Black hover:border-1 hover:border-Carbon-Black">Download_CV</a> 
+  <header class="fixed top-0 left-0 w-screen p-2 z-50 bg-Platinum font-light border-b-2 border-Carbon-Black">
+        <div class="max-w-7/10 mx-auto xl:w-full flex flex-col items-center sm:flex-row sm:justify-between">
+            <div class="p-2 text-sm sm:text-lg flex items-center">
+                <h2 class="font-medium">Student_portfolio</h2>
+            </div>
+            <div class="p-2 text-sm sm:text-base flex items-center">
+                <nav class="flex gap-4">
+                    <a href="index.html" class="transition duration 300 ease-in-out hover:underline">Home</a>
+                    <a href="projects.html" class="transition duration 300 ease-in-out hover:underline">Projects</a>
+                    <a href="contact.html" class="font-medium underline">Contact</a>
+                </nav>
+            </div>
+            <div class="p-2 flex gap-4 items-center">
+                <i class="fa-solid fa-magnifying-glass" style="color: #1A2022;" ></i>
+                <a href="CV" class="p-1 bg-Carbon-Black border-1 border-Platinum text-sm text-Platinum font-normal transition duration 300 ease-in-out
+                hover:bg-Platinum hover:text-Carbon-Black hover:border-1 hover:border-Carbon-Black">Download_CV</a> 
+            </div>
         </div>
     </header>
     
-    <main class="mt-15 p-10">
+    <main class="mb-10">
 
         <!-- Title -->
-        <section class="text-Carbon-Black">
-            <div class="pl-2 flex flex-col gap-4 max-w-9/10 sm:max-w-1/2 border-l-2 border-Carbon-Black">
+        <section class="max-w-9/10 my-15 pt-10 mx-auto">
+            <div class="p-4 mt-15 xl:mt-0 xl:max-w-1/2 flex flex-col gap-2 justify-between border-l-2">
                 <h3 class="uppercase text-xs font-extralight">03 // inquiry_node</h3>
-                <h1 class="uppercase text-7xl font-Space-Grotesk font-black">leave your <span style="text-decoration: underline; font-style: italic;">mark.</span></h1>
-                <h2 class="uppercase text-lg font-light">currently exploring the intersection of tectonic materiality and digital interfaces. open for architechtural 
+                <h1 class="uppercase text-3xl sm:text-7xl font-Space-Grotesk font-black">leave your <span style="text-decoration: underline; font-style: italic;">mark.</span></h1>
+                <h2 class="uppercase text-base sm:text-lg font-light">currently exploring the intersection of tectonic materiality and digital interfaces. open for architechtural 
                     visualisations, full-stack collaborations and technical dialogue.
                 </h2>
             </div>
         </section>
 
         <!-- Contact section -->
-        <section class="max-h-3/5 mt-15 grid grid-cols-1 sm:grid-cols-2 gap-20">
+        <section class="max-w-9/10 mx-auto max-h-3/5 mt-10 grid grid-cols-1 xl:grid-cols-2 gap-20">
 
         <!-- Contact Form -->
-            <div class="h-250 flex-auto text-Carbon-Black">
-                <form class="sm:max-h-1/2 auto-cols-max flex flex-col gap-4 p-8 border-1 border-Carbon-Black shadow-lg">
-                    <div class="sm:flex gap-4 items-center justify-left text-sm">
+            <div class="flex-auto text-Carbon-Black">
+                <form class="auto-cols-max flex flex-col gap-4 p-8 border-1 border-Carbon-Black shadow-lg">
+                    <div class="flex flex-col gap-4 sm:flex-row sm:gap-4 items-center justify-left text-sm">
                         <label for="fullname" class="uppercase font-bold">Full Name</label>
                         <input type="text" id="fullname" value="Alex_Vance" class="uppercase font-extralight border-1 border-Charcoal shadow-md p-2">
                         <label for="email" class="uppercase font-bold">Email Address</label>
@@ -72,7 +74,7 @@
             </div>
             
         <!-- Map section -->
-            <div class="h-150 flex-auto">
+            <div class="flex-auto">
                 <div class="flex flex-col gap-4">
                     <div class="flex justify-left items-center">
                         <i class="fa-solid fa-minus fa-2xl" style="color: #1A2022;"></i>
@@ -99,7 +101,7 @@
                 <i class="fa-solid fa-minus fa-2xl" style="color:#1A2022;"></i>
                 <h3 class="uppercase font-bold text-xs">digital preference</h3>
                 </div>
-                <div class="flex justify-left gap-4">
+                <div class="flex justify-between sm:justify-start sm:gap-4">
                     <div class="flex justify-between items-center border-2 border-Carbon-Black bg-Carbon-Black text-Platinum p-4 
                     transition delay-50 duration-300 hover:bg-Prussian-Blue hover:text-Platinum ease-in-out hover:border-2">
                         <a href="LinkedIn" class="uppercase mr-2 font-bold text-xs ">LinkedIn</a>
@@ -123,7 +125,7 @@
     </main>
 
     <!-- Footer -->
-   <Footer class="p-3 flex justify-between bg-Platinum border-t-3 ">
+    <Footer class="w-screen p-3 flex flex-col gap-4 items-center sm:flex-row sm:justify-between bg-Platinum border-t-3 ">
         <div class="p-2 flex items-center">
             <p class="text-xs font-medium">	&copy; 2026 ARCHITECHTURAL_SYSTEMS_LTD. ALL RIGHTS RESERVED.</h2>
         </div>
